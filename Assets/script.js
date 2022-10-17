@@ -42,15 +42,15 @@ var scores = [''];
 
 // Array of questions
 var questions = [
-    'Inside which HTML element do we put the JavaScript?',
-    'Where is the correct place to insert a JavaScript?',
+    'Inside which HTML element do we put JavaScript?',
+    'Where is the correct place to insert JavaScript?',
     'What is the correct syntax for referring to an external script called "xxx.js"?',
     'The external JavaScript file must contain the <script> tag.',
     'How do you write "Hello World" in an alert box?',
     'How do you create a function in JavaScript?',
     'How do you call a function named "myFunction"?',
-    'How to write an IF statement in JavaScript?',
-    'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
+    'How do you write an IF statement in JavaScript?',
+    'How do you write an IF statement for executing some code if "i" is NOT equal to 5?',
     'How does a WHILE loop start?',
 ];
 
@@ -94,7 +94,7 @@ function setTime() {
     var timeInterval = setInterval(function () {
         secondsLeft--;
         //var timeRemaining = document.createElement('p');
-        timerEl.textContent = secondsLeft + ' Seconds Remaining';
+        timerEl.textContent = 'Time: ' + secondsLeft;
         //timerEl.appendChild(timeRemaining);
         if (secondsLeft === 0) {
             clearInterval(timeInterval);
@@ -114,7 +114,7 @@ function checkAnswer(selection, answer) {
     }
 }
 
-// Set the user's score to the highscores list
+// Add the user's score to the highscores list
 function setHighscores(initials, score) {
     scores.push(initials + score);
     localStorage.setItem('highscores', scores);

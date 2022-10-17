@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#viewHighscores {
+  justify-content: flex-start;
+}
+
+#timer {
+  display: flex;
+  flex-direction: flex-end;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#heading {
+  justify-content: center;
+}
