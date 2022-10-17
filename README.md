@@ -23,3 +23,4 @@ The following image shows the web application's appearance and functionality:
 ![image](https://user-images.githubusercontent.com/4752879/196282147-c89ac2ff-6801-4a0a-96e6-ebe0b93f8100.png)
 
 ## Link to deployed application:
+https://dtierney21.github.io/javascript-quiz/
